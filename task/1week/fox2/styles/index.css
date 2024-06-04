@@ -1,1 +1,50 @@
 @import url("./reset.css");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-image: url("../images/bg.png");
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.grass {
+  width: 100%;
+}
+
+.title {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.content-box {
+  border-radius: 0px 0px 30px 30px;
+  border-bottom: 10px solid #46260e;
+  background: #9c6035;
+}
+
+.text-box {
+  padding: 0 20px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.content {
+  color: #e8bc9c;
+  font-size: 16px;
+  font-weight: 400;
+  width: 270px;
+}
