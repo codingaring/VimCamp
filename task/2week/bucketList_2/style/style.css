@@ -1,0 +1,79 @@
+@import url("./reset.css");
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #d9d9d9;
+}
+
+.main {
+  padding: 20px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.buckets {
+  max-width: 448px;
+  width: 100%;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 4px 0 rgb(0 0 0 / 0.1);
+}
+
+.buckets-header {
+  border-radius: 20px 20px 0 0;
+  padding: 44px 0;
+  border-bottom: 4px solid #ddd;
+}
+
+.buckets-title {
+  padding-left: 30px;
+  font-weight: 700;
+  font-size: 24px;
+  border-left: 8px solid;
+  color: #ff007a;
+  line-height: 32px;
+}
+
+.buckets-contents {
+  background-color: #eee;
+  padding: 36px 38px 38px;
+  border-radius: 0 0 20px 20px;
+}
+
+.list {
+}
+
+.list-item {
+  display: flex;
+  gap: 13px;
+  justify-content: space-between;
+  align-items: center;
+  color: #888;
+  padding: 11px 10px;
+  border: 4px solid #d9d9d9;
+  border-radius: 10px;
+  background-color: white;
+  margin-bottom: 14px;
+}
+
+.list-item:last-child {
+  margin: 0;
+}
+
+.list-item.is_complete {
+  color: #759cff;
+  font-weight: 700;
+  border-color: currentColor;
+  box-shadow: 0 4px 4px 0 rgb(0 0 0 / 0.1);
+}
+
+.list-item.is_complete::after {
+  content: " ";
+  min-width: 20px;
+  min-height: 20px;
+  background-image: url("../images/check.png");
+  background-size: contain;
+}
