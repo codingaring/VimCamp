@@ -1,0 +1,98 @@
+@import url("./reset.css");
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+}
+
+.header {
+  background-image: url("../images/header-bg.png");
+  background-size: cover;
+  background-position: center;
+  color: #ffa500;
+  padding: 100px 172px 0;
+}
+
+.header-container {
+  border-top: solid 30px #ffa500;
+  border-left: solid 30px #ffa500;
+  border-right: solid 30px #ffa500;
+  padding: 60px 60px 0;
+  display: flex;
+}
+
+.header-title {
+  text-decoration: underline;
+  text-underline-offset: 11px;
+  font-size: 32px;
+  letter-spacing: 6.08px;
+  font-weight: 400;
+  margin-bottom: 26px;
+}
+
+.header-title .bold {
+  font-weight: 700;
+}
+
+.header-content {
+  font-weight: 400;
+  line-height: 160%;
+  display: flex;
+  gap: 14px;
+  margin-bottom: 70px;
+}
+
+.header-img {
+  background-image: url("../images/container-bg.png");
+  min-width: 290px;
+  max-height: 380px;
+  margin-left: 14px;
+}
+
+.card-list {
+  background-color: #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 30px;
+}
+
+.card {
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.card-img {
+  border-bottom: solid 4px #ffa500;
+}
+
+.card-info {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 0 10px;
+  color: #ffa500;
+  font-weight: 700;
+  line-height: 160%;
+}
+
+.card-info::after {
+  content: " ";
+  min-width: 30px;
+  min-height: 30px;
+  background-image: url("../images/play.png");
+  background-position: center;
+}
+
+.footer {
+  color: #aaa;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 160%;
+  letter-spacing: 4.06px;
+  padding: 20px;
+}
