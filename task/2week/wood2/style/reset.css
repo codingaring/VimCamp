@@ -24,3 +24,7 @@ img {
   max-width: 100%;
   vertical-align: top;
 }
+
+p {
+  margin: 0;
+}
