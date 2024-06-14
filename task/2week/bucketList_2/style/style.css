@@ -29,12 +29,20 @@ body {
 }
 
 .buckets-title {
-  padding-left: 30px;
   font-weight: 700;
   font-size: 24px;
-  border-left: 8px solid;
   color: #ff007a;
   line-height: 32px;
+  display: flex;
+}
+
+.buckets-title::before {
+  content: "";
+  min-width: 8px;
+  min-height: 32px;
+  background-color: #ff007a;
+  margin-right: 30px;
+  border-radius: 0 10px 10px 0;
 }
 
 .buckets-contents {
@@ -75,5 +83,5 @@ body {
   min-width: 20px;
   min-height: 20px;
   background-image: url("../images/check.png");
-  background-size: contain;
+  background-position: center;
 }
