@@ -72,6 +72,9 @@ body {
 }
 
 .list-item.is_complete {
+  width: 103%;
+  position: relative;
+  left: -19px;
   color: #759cff;
   font-weight: 700;
   border-color: currentColor;
