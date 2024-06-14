@@ -84,7 +84,6 @@ body {
 .card-list {
   background-color: #ddd;
   padding: 30px 172px 0;
-  overflow-x: auto;
   text-align: center;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -102,6 +101,7 @@ body {
 
 .card-img {
   border-bottom: 4px solid #ffa500;
+  width: 100%;
 }
 
 .card-info {
