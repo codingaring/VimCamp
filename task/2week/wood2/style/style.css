@@ -6,7 +6,7 @@ body {
 
 .header {
   position: relative;
-  background-image: url("./images/header-bg.png");
+  background-image: url("../images/header-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 190px 262px 0;
@@ -34,7 +34,7 @@ body {
   content: "";
   min-width: 290px;
   min-height: 308px;
-  background-image: url("./images/container-bg.png");
+  background-image: url("../images/container-bg.png");
   background-repeat: no-repeat;
   background-position-x: center;
   grid-area: 1 / 2 / 3 / 3;
@@ -52,7 +52,7 @@ body {
 
 .header-title::before {
   content: "";
-  background-image: url("./images/play.png");
+  background-image: url("../images/play.png");
   min-width: 25px;
   min-height: 25px;
   background-size: cover;
@@ -116,7 +116,7 @@ body {
   content: "";
   min-width: 25px;
   min-height: 25px;
-  background-image: url("./images/play.png");
+  background-image: url("../images/play.png");
   background-position: center;
   cursor: pointer;
 }
