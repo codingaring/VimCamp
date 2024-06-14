@@ -86,6 +86,7 @@ body {
   padding: 30px 172px 0;
   overflow-x: auto;
   text-align: center;
+  white-space: nowrap;
 }
 
 .card {
