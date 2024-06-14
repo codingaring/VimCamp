@@ -50,14 +50,6 @@ body {
   grid-area: 1 / 1 / 2 / 2;
 }
 
-.header-title::before {
-  content: "";
-  background-image: url("../images/play.png");
-  min-width: 25px;
-  min-height: 25px;
-  background-size: cover;
-}
-
 /** text-underline */
 .header-title::after {
   content: "";
