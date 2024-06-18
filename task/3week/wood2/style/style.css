@@ -52,8 +52,8 @@ body {
 .header-title::after {
   content : "";
   position : absolute;
+  box-shadow : 0 0 100px inset #ffa500;
   min-width : 100%;
-  background-color:#FFA500;
   height:4px;
   border-radius : 12px;
   top : 48px;
