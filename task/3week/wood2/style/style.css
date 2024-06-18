@@ -110,7 +110,7 @@ body {
 
 .card-btn {
   flex-basis : 50px;
-  
+  cursor: pointer;
 }
 
 /** footer */
