@@ -83,6 +83,7 @@ body {
   align-items: center;
   max-width : 1080px;
   gap : 30px;
+  flex-wrap : wrap;
 }
 
 .card {
