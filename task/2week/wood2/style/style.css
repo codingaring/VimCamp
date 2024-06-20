@@ -4,125 +4,126 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.l_wrapper {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
 .header {
-  background-image : url("../images/header-bg.png");
-  padding : 100px 20px 0 20px;
-  
+  background-image: url("../images/header-bg.png");
+  padding: 100px 20px 0 20px;
 }
 
 .header-layout {
-  margin : 0 auto;
-  border : 30px solid #ffa500;
-  border-bottom : none;
-  padding : 60px 60px 0;
-  max-width : 900px; 
-  display : flex;
-  gap : 14px;
+  border: 30px solid #ffa500;
+  border-bottom: none;
+  padding: 60px 60px 0;
+
+  display: flex;
+  gap: 14px;
 }
 
 /** header container-bg */
 .header-layout::after {
-  content : "";
-  background-image : url("../images/container-bg.png");
+  content: "";
+  background-image: url("../images/container-bg.png");
   background-position: center;
-  background-repeat : no-repeat;
-  background-size :contain;
-  flex-basis : 45%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  flex-basis: 45%;
 }
 
 .header-contentBox {
-  display : flex;
-  flex-direction : column;
-  gap : 41px;
-  padding-bottom : 90px;
-  flex-basis : 55%;
-  min-width : 0;
+  display: flex;
+  flex-direction: column;
+  gap: 41px;
+  padding-bottom: 90px;
+  flex-basis: 55%;
+  min-width: 0;
 }
 
 .header-title {
-  position : relative;
-  color: #FFA500;
+  position: relative;
+  color: #ffa500;
   font-size: 32px;
   letter-spacing: 6.08px;
-  font-weight : 400;
-  display : flex;
-  gap : 22px;
-  width : fit-content; /** flex-basis로 하면 안됨 */
-  flex-wrap : wrap;
+  font-weight: 400;
+  display: flex;
+  gap: 22px;
+  width: fit-content; /** flex-basis로 하면 안됨 */
+  flex-wrap: wrap;
 }
 
 .header-title::after {
-  content : "";
-  position : absolute;
-  min-width : 100%;
-  background-color:#FFA500;
-  height:4px;
-  border-radius : 12px;
-  bottom : -11px;
+  content: "";
+  position: absolute;
+  min-width: 100%;
+  background-color: #ffa500;
+  height: 4px;
+  border-radius: 12px;
+  bottom: -11px;
 }
 
 .bold {
-  font-weight : 700;
+  font-weight: 700;
 }
 
 .header-content {
-  color: #FFA500;
+  color: #ffa500;
   line-height: 160%;
 }
 
-/** card-list */ 
+/** card-list */
 .card-list {
-  position : relative;
-  background-color : #ddd;
-  padding : 30px 20px 30px 20px;
-  z-index : 2;
-  margin-top : -30px;
+  position: relative;
+  background-color: #ddd;
+  padding: 30px 20px 30px 20px;
+  z-index: 2;
+  margin-top: -30px;
 }
 
 .card-list-layout {
-  margin : 0 auto;
-  display : flex;
+  display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width : 1080px;
-  gap : 30px;
+  gap: 30px;
 }
 
 .card {
-  border-radius : 6px;
+  border-radius: 6px;
   overflow: hidden;
 }
 
 .card-img {
-  border-bottom : 4px solid #FFA500;
+  border-bottom: 4px solid #ffa500;
 }
 
 .card-info {
-  background-color : white;
-  padding-left : 10px;
-  display : flex;
+  background-color: white;
+  padding-left: 10px;
+  display: flex;
   justify-content: space-between;
-  align-items : center;
+  align-items: center;
 }
 
 .card-title {
-  color: #FFA500;
+  color: #ffa500;
   font-weight: 700;
   line-height: 160%;
 }
 
 .card-btn {
-  flex-basis : 50px;
+  flex-basis: 50px;
 }
 
 /** footer */
 .footer {
-  border-top : 2px solid #aaa;
-  color: #AAA;
+  border-top: 2px solid #aaa;
+  color: #aaa;
   text-align: center;
   font-size: 14px;
   font-weight: 700;
   line-height: 160%;
   letter-spacing: 4.06px;
-  padding : 15px;
+  padding: 15px;
 }
