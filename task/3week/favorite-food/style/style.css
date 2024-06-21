@@ -1,5 +1,4 @@
-@import url("./reset.css");
-@import url("./color.css");
+@import url("./global.css");
 
 /** Commons */
 .l_wrapper {
