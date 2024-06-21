@@ -94,6 +94,7 @@ body {
   background-color: #f4f4f4;
   padding: 20px;
   display: flex;
+  flex-wrap: wrap;
   gap: 6px;
   align-items: center;
   justify-content: flex-start;
