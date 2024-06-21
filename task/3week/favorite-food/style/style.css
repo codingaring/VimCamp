@@ -26,6 +26,7 @@
 /** */
 body {
   font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
 }
 
 .header {
@@ -35,7 +36,7 @@ body {
 }
 
 .header-title {
-  color: var(--orange);
+  color: var(--color-orange);
   font-size: 24px;
   font-weight: 700;
 }
