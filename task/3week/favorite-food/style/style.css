@@ -45,6 +45,7 @@ body {
   width: 125px;
 }
 
+/** cardList section */
 .section {
   background-color: #d9d9d9;
   position: relative;
@@ -53,6 +54,7 @@ body {
 .cardList {
   display: flex;
   gap: 30px;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -60,6 +62,7 @@ body {
   overflow: hidden;
   box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.3);
   width: 300px;
+  flex-shrink: 0;
 }
 
 .card-header {
