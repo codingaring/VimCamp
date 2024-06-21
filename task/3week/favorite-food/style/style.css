@@ -32,12 +32,12 @@ body {
   position: relative;
 }
 
-.foodList {
+.cardList {
   display: flex;
   gap: 30px;
 }
 
-.food-card {
+.card {
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.3);
@@ -69,7 +69,7 @@ body {
   color: #0075ff;
 }
 
-.food-description {
+.card-description {
   background-color: white;
   padding: 20px;
   color: #666;
@@ -94,7 +94,7 @@ body {
   color: #0075ff;
 }
 
-.food-tagList {
+.card-tagList {
   background-color: #f4f4f4;
   padding: 20px;
   display: flex;
