@@ -1,66 +1,139 @@
 @import url("./global.css");
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #d9d9d9;
+}
+
+.header-color {
+  background-color: white;
+}
+
 /** Commons */
 .l_wrapper {
-  /** */
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.bold {
+  font-weight: 700;
+  color: var(--color-impact);
 }
 
 /** header */
 .header {
-  df
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
 }
 
 .header-title {
-  df
+  color: var(--color-orange);
+  font-size: 24px;
+  font-weight: 700;
 }
 
 .header-logo {
-  d
+  width: 130px;
 }
-
-/** main */
-.main {
-
-} 
 
 /** section */
 .section {
-  d
+  position: relative;
 }
 
 .cardList {
-  dd
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 /** section - cardList - card */
 .card {
-  d
+  width: 31%;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.3);
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .card-header {
-  d
+  position: relative;
+  aspect-ratio: 1.5 / 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
 }
 
 .card-title {
-dd
+  z-index: 1;
+  padding: 10px;
+  background-color: rgb(1 1 1 / 0.8);
+  color: var(--color-impact);
 }
 
 .card-cover {
-  d
+  position: absolute;
+  top: 0;
 }
 
 .card-description {
-  d
+  padding: 20px;
+  background-color: white;
+
+  /** text-style */
+  color: #666;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4em;
 }
 
 .card-tagList {
-  d
+  padding: 18px 26px;
+  background-color: #f4f4f4;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
 }
 
 .card-tag {
-  dd
+  background-color: var(--color-impact);
+  padding: 4px 8px;
+  border-radius: 12px;
 }
 
-.footer {
-  d
+.card-tag-text {
+  /**여기를 수정해야 될 듯*/
+  max-width: 200px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+
+  /** text-style */
+  color: #fff;
+  font-family: "Noto Sans CJK KR";
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.card-tag-text::before {
+  content: "# ";
+  color: rgb(255 255 255 / 0.5);
+  font-weight: 500;
+  line-height: 1.3em;
+}
+
+.copy-right {
+  color: #aaa;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.4em;
 }
