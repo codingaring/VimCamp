@@ -1,0 +1,16 @@
+:root {
+  --color-white: #fff;
+  --color-orange: #ff4500;
+  --color-purple: #6230a2;
+  --color-pink: #f98173;
+
+  --color-highlight: #ff4500;
+}
+
+.section-first {
+  --color-highlight: var(var(--color-highlight));
+}
+
+.section-second {
+  --color-highlight: var(--color-white);
+}
