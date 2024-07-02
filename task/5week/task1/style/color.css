@@ -7,10 +7,10 @@
   --color-highlight: #ff4500;
 }
 
-.section-first {
+.section.type_purple {
   --color-highlight: var(var(--color-highlight));
 }
 
-.section-second {
+.section.type_pink {
   --color-highlight: var(--color-white);
 }
