@@ -27,7 +27,7 @@ body {
   margin-bottom: 100px;
 }
 
-/** section-first*/
+/** section type_purple */
 .section.type_purple {
   background-color: var(--color-purple);
 }
@@ -101,7 +101,8 @@ body {
 .portfolio-header h4 {
   position: relative;
   z-index: 1;
-  width: 280px;
+  min-width: 280px;
+  width: 100%;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -209,6 +210,7 @@ body {
   background-color: white;
   display: flex;
   flex-direction: column;
+  min-width: 0;
 }
 
 .grid-item.badge::before {
@@ -302,4 +304,26 @@ body {
 
 .circle-item:not(:last-child) {
   margin-right: -15px;
+}
+
+/** 반응형 */
+@media (max-width: 768px) {
+  .type_purple .section-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .portfolio-item,
+  .portfolio-item:nth-of-type(even) {
+    flex-direction: column;
+  }
+
+  .type_pink .section-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
 }
