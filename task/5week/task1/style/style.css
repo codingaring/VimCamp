@@ -64,33 +64,33 @@ body {
   line-height: 1.3em;
 }
 
-.portfolio {
+.pannel {
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
 
-.portfolio-item {
+.pannel-item {
   display: flex;
   background-color: white;
 }
 
-.portfolio-item:nth-of-type(even) {
+.pannel-item:nth-of-type(even) {
   flex-direction: row-reverse;
 }
 
-.portfolio-item .portfolio-item-main:nth-of-type(even) {
+.pannel-item .pannel-item-main:nth-of-type(even) {
   margin-right: auto;
 }
 
-.portfolio-header {
+.pannel-item-header {
   position: relative;
   aspect-ratio: 280 / 148;
   display: flex;
   align-items: center;
 }
 
-.portfolio-header:before {
+.pannel-item-header:before {
   content: "";
   position: absolute;
   inset: 0;
@@ -98,7 +98,7 @@ body {
   z-index: 1;
 }
 
-.portfolio-header h4 {
+.pannel-item-header h4 {
   position: relative;
   z-index: 1;
   min-width: 280px;
@@ -115,7 +115,7 @@ body {
   line-height: 1.375em;
 }
 
-.portfolio-cover {
+.pannel-cover {
   position: absolute;
   top: 0;
   left: 0;
@@ -124,11 +124,11 @@ body {
   object-fit: cover;
 }
 
-.portfolio-item-main {
+.pannel-item-main {
   padding: 16px 21px 21px;
 }
 
-.portfolio-item-main h5 {
+.pannel-item-main h5 {
   margin-bottom: 14px;
 
   /** typography */
@@ -213,7 +213,7 @@ body {
   min-width: 0;
 }
 
-.grid-item.badge::before {
+.grid-item.type_badge::before {
   content: "";
   background-image: url("../images/badge.png");
   width: 110px;
@@ -313,8 +313,8 @@ body {
     align-items: flex-start;
   }
 
-  .portfolio-item,
-  .portfolio-item:nth-of-type(even) {
+  .pannel-item,
+  .pannel-item:nth-of-type(even) {
     flex-direction: column;
   }
 
