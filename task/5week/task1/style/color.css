@@ -2,7 +2,9 @@
   --color-white: #fff;
   --color-orange: #ff4500;
   --color-purple: #6230a2;
+  --color-purple-10: #c89dff;
   --color-pink: #f98173;
+  --color-pink-10: hsl(6, 50%, 76%);
 
   --color-highlight: #ff4500;
 }

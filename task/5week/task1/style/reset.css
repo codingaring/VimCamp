@@ -21,11 +21,7 @@ p {
 }
 
 button {
-  border: none;
-  padding: 0;
-  color: inherit;
-  border-radius: 0;
-  background-color: rgba(0, 0, 0, 0);
+  all: unset;
 }
 
 ul,
