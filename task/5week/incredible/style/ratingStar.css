@@ -1,0 +1,65 @@
+/* rating */
+.rating {
+  position: relative;
+  min-width: 250px;
+  min-height: 50px;
+}
+
+.rating::before {
+  content: "";
+  min-width: 100%;
+  min-height: 100%;
+  background-image: url("../images/star.png");
+  background-size: cover;
+  position: absolute;
+}
+
+.rating.type_oneStar::after {
+  content: "";
+  min-width: 20%;
+  min-height: 100%;
+  background-image: url("../images/star.png");
+  background-size: 500%;
+  position: absolute;
+  background-position: bottom;
+}
+
+.rating.type_twoStar::after {
+  content: "";
+  min-width: 40%;
+  min-height: 100%;
+  background-image: url("../images/star.png");
+  position: absolute;
+  background-size: 250%;
+  background-position: bottom left;
+}
+
+.rating.type_threeStar::after {
+  content: "";
+  min-width: 60%;
+  min-height: 100%;
+  background-image: url("../images/star.png");
+  position: absolute;
+  background-size: 166%;
+  background-position: bottom left;
+}
+
+.rating.type_fourStar:after {
+  content: "";
+  min-width: 80%;
+  min-height: 100%;
+  background-image: url("../images/star.png");
+  position: absolute;
+  background-size: 125%;
+  background-position: bottom left;
+}
+
+.rating.type_fiveStar::after {
+  content: "";
+  min-width: 100%;
+  min-height: 100%;
+  background-image: url("../images/star.png");
+  position: absolute;
+  background-size: 100%;
+  background-position: bottom left;
+}
